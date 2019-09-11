@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    By only having to look at the lines that have differences in them, and maybe practically 
+    unchanged otherwise, it is easy to spot irregularities.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    After some time you may want to return to an alternative older versions of some feature or 
+    may need to find a mistake in your code, having access to the version history you wouldn't 
+    need to start writing the same code again. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you get to save commits that are logically connected or related to the same feature, 
+    Cons: you may forget to create a commit, your computer or internet may malfunction that 
+    would lead to you losing progress
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Perhaps to provide a wholesome treatment for project in repository, i.e. if there are 
+    changes introduced only to one file it should be assumed that other files are do not 
+    require changes at the moment.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log command allows you to check what commits have been made, what is the commit id,
+    when and by whom is has been made and what changes were made.
+    git diff shows in what lines of the code there have been changes made between versions,
+    with "-"/red it shows which lines were deleted and with "+"/green which lines have been 
+    added. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can make more decisive changes and not to worry that you might lose progress, 
+    because with git checkout you can easily return to an older versions and track where 
+    you might have made a mistake.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version-control of projects I will be working on.
