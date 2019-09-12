@@ -13,3 +13,34 @@ What value do you think it offers?
 	a logical change. Its value is in the fact that you are not urged to commit all of 
 	the files in your working directory, but can decide which files will make the most 
 	logical sense for a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can add files to the staging area that pertain to the same logical change and 
+	then comit these files in one commit.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+	Branches would be helpful if you wanted to create a new or experimental feature, to 
+	switch context of your work, when you use branching, you are not compromising the 
+	state of master (production ready code) and not losing current progress.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams allow you to better understand what is your branch structure, which are 
+	the parent nodes, if there is a risk of losing commits.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+	The result is one branch that includes all commits of the merged branches. We 
+	represent these branches in the diagram separately because commits in different 
+	branches have different parent nodes and if we needed to see differences between 
+	commits, we need to run git show.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros: automatic merging checks if there are conflicts in data that you are merging, 
+	and lets you and your collaborators decide which version you should choose for merging
+	Cons: you may sometimes need to include all versions
