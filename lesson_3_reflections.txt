@@ -20,3 +20,11 @@ instead of another?
 	referenced.
 	Fork - cloning someone's repository within GitHub, the original repository is 
 	referenced, but unaltered by the changes committed. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	If there are changes introduced by your collaborators that are in conflict with the 
+	changes that you have commited simultaneously prior to updating the remote, you can safely review 
+	the conflicts after fetching the updates, resolve conflicts as necessary and then 
+	merge the files.
+
