@@ -21,10 +21,18 @@ instead of another?
 	Fork - cloning someone's repository within GitHub, the original repository is 
 	referenced, but unaltered by the changes committed. 
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
 
 	If there are changes introduced by your collaborators that are in conflict with the 
-	changes that you have commited simultaneously prior to updating the remote, you can safely review 
-	the conflicts after fetching the updates, resolve conflicts as necessary and then 
-	merge the files.
+	changes that you have commited simultaneously prior to updating the remote, you can 
+	safely review the conflicts after fetching the updates, resolve conflicts as 
+	necessary and then merge the files.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+	Without Git or GitHub I would probably collaborate via Google Drive or Dropbox. 
+	I wouldn't need to memorize Git commands, that would make it easier. Lack of 
+	functionality such as fetching, merging, pull-requests, etc. would make collaborative 
+	work harder.
