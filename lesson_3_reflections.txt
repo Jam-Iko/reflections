@@ -36,3 +36,13 @@ would be harder?
 	I wouldn't need to memorize Git commands, that would make it easier. Lack of 
 	functionality such as fetching, merging, pull-requests, etc. would make collaborative 
 	work harder.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	You'd probably want to make changes in a separate branch when you collaborate with other 
+	people and the change you're making is adding a new feature or may be considered 
+	experimental or not ready for production level. After confirming with your collaborators 
+	if the change should be included, you can merge your changes into master. When you need 
+	to introduce changes to master that fix a bug, you can add changes directly to master, 
+	after notifying your collaborators first.
